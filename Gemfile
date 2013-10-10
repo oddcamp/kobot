@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 source 'https://sr9bdZCARFKkWwxW2in4@gem.fury.io/kollegorna/'
 
+ruby '2.0.0'
+
 gem "lita"
 
 # Uncomment to use the HipChat adapter
