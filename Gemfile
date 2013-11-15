@@ -22,4 +22,6 @@ gem "lita-eightball"
 gem "lita-excuses"
 gem "lita-coin"
 gem 'lita-helen'
+gem 'lita-pugbomb', github: 'killpack/lita-pugbomb'
+
 # gem 'lita-helen', path: '/Users/henrik/Projects/lita-helen'
