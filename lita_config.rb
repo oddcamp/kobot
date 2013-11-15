@@ -35,4 +35,7 @@ Lita.configure do |config|
   # config.handlers.some_handler.some_config_key = "value"
   config.handlers.helen.api_key = ENV['HELEN_API_KEY']
   config.handlers.helen.host = ENV['HELEN_HOST']
+
+  config.handlers.memegen.username = ENV['MEMEGEN_USERNAME']
+  config.handlers.memegen.password = ENV['MEMEGEN_PASSWORD']
 end
