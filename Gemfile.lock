@@ -41,6 +41,8 @@ GEM
       xmpp4r (~> 0.5)
     lita-karma (2.0.0)
       lita (~> 2.6)
+    lita-likeaboss (1.0.0)
+      lita (~> 2.0)
     lita-memegen (1.0.3)
       lita (~> 2.0)
     mini_portile (0.5.2)
@@ -73,5 +75,6 @@ DEPENDENCIES
   lita-helen
   lita-hipchat
   lita-karma
+  lita-likeaboss
   lita-memegen
   lita-pugbomb!
