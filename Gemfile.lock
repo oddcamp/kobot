@@ -41,7 +41,7 @@ GEM
       xmpp4r (~> 0.5)
     lita-karma (2.0.0)
       lita (~> 2.6)
-    lita-likeaboss (1.0.0)
+    lita-likeaboss (1.0.1)
       lita (~> 2.0)
     lita-memegen (1.0.3)
       lita (~> 2.0)
