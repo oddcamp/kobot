@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/henrrrik/lita-holmstrom.git
+  revision: 24bc19d37674f8d0d7c03c82f2f6b0c21bd2935f
+  specs:
+    lita-holmstrom (1.0.0)
+      lita (~> 2.0)
+
+GIT
   remote: git://github.com/henrrrik/lita-nerd.git
   revision: d7aa9ad6d292af90f3f1ae17f4b761274ed60ee9
   specs:
@@ -81,6 +88,7 @@ DEPENDENCIES
   lita-google-images
   lita-helen
   lita-hipchat
+  lita-holmstrom!
   lita-karma
   lita-likeaboss
   lita-memegen
