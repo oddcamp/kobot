@@ -24,5 +24,6 @@ gem "lita-coin"
 gem 'lita-helen'
 gem 'lita-pugbomb', github: 'killpack/lita-pugbomb'
 gem 'lita-likeaboss'
+gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 
 # gem 'lita-helen', path: '/Users/henrik/Projects/lita-helen'

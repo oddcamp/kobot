@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/henrrrik/lita-nerd.git
+  revision: d7aa9ad6d292af90f3f1ae17f4b761274ed60ee9
+  specs:
+    lita-nerd (1.0.0)
+      lita (~> 2.0)
+
+GIT
   remote: git://github.com/killpack/lita-pugbomb.git
   revision: 13793d41efce09cc0423562e9ec8d6384b000b57
   specs:
@@ -77,4 +84,5 @@ DEPENDENCIES
   lita-karma
   lita-likeaboss
   lita-memegen
+  lita-nerd!
   lita-pugbomb!
