@@ -14,7 +14,7 @@ gem "lita-hipchat"
 # Add handlers to give Lita new functionality.
 # For example:
 gem "lita-karma"
-gem "lita-animate"
+# gem "lita-animate"
 gem "lita-memegen"
 gem "lita-google-images"
 gem "lita-flip"
@@ -26,5 +26,6 @@ gem 'lita-pugbomb', github: 'killpack/lita-pugbomb'
 gem 'lita-likeaboss'
 gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
+gem 'lita-giphy'
 
 # gem 'lita-helen', path: '/Users/henrik/Projects/lita-helen'
