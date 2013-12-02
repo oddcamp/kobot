@@ -36,8 +36,8 @@ Lita.configure do |config|
   config.handlers.helen.api_key = ENV['HELEN_API_KEY']
   config.handlers.helen.host = ENV['HELEN_HOST']
 
-  config.handlers.memegen.username = ENV['MEMEGEN_USERNAME']
-  config.handlers.memegen.password = ENV['MEMEGEN_PASSWORD']
+  config.handlers.imgflip.username = ENV['IMGFLIP_USERNAME']
+  config.handlers.imgflip.password = ENV['IMGFLIP_PASSWORD']
 
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC" # Public beta key
 end

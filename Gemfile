@@ -14,8 +14,7 @@ gem "lita-hipchat"
 # Add handlers to give Lita new functionality.
 # For example:
 gem "lita-karma"
-# gem "lita-animate"
-gem "lita-memegen"
+gem 'lita-imgflip', github: 'henrrrik/lita-imgflip'
 gem "lita-google-images"
 gem "lita-flip"
 gem "lita-eightball"

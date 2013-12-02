@@ -6,6 +6,13 @@ GIT
       lita (~> 2.0)
 
 GIT
+  remote: git://github.com/henrrrik/lita-imgflip.git
+  revision: 22b458a772b4d6a952cb2eb24a68a1599a4df2a2
+  specs:
+    lita-imgflip (1.0.0)
+      lita (~> 2.0)
+
+GIT
   remote: git://github.com/henrrrik/lita-nerd.git
   revision: d7aa9ad6d292af90f3f1ae17f4b761274ed60ee9
   specs:
@@ -57,8 +64,6 @@ GEM
       lita (~> 2.6)
     lita-likeaboss (1.0.1)
       lita (~> 2.0)
-    lita-memegen (1.0.3)
-      lita (~> 2.0)
     mini_portile (0.5.2)
     multi_json (1.8.2)
     multipart-post (1.2.0)
@@ -89,8 +94,8 @@ DEPENDENCIES
   lita-helen
   lita-hipchat
   lita-holmstrom!
+  lita-imgflip!
   lita-karma
   lita-likeaboss
-  lita-memegen
   lita-nerd!
   lita-pugbomb!
