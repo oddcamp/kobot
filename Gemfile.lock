@@ -1,20 +1,20 @@
 GIT
   remote: git://github.com/henrrrik/lita-holmstrom.git
-  revision: 24bc19d37674f8d0d7c03c82f2f6b0c21bd2935f
+  revision: 78dcd3b82baf3d9e39ca3a71f71a000c5fe4821f
   specs:
     lita-holmstrom (1.0.0)
       lita (~> 2.0)
 
 GIT
   remote: git://github.com/henrrrik/lita-imgflip.git
-  revision: 22b458a772b4d6a952cb2eb24a68a1599a4df2a2
+  revision: 889879541e993679db56ae0474235b54a4a65201
   specs:
-    lita-imgflip (1.0.0)
+    lita-imgflip (1.0.1)
       lita (~> 2.0)
 
 GIT
   remote: git://github.com/henrrrik/lita-nerd.git
-  revision: d7aa9ad6d292af90f3f1ae17f4b761274ed60ee9
+  revision: 9dd6f0e1f368ed7226169d831e2ad8af190e6982
   specs:
     lita-nerd (1.0.0)
       lita (~> 2.0)
