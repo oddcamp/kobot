@@ -14,13 +14,13 @@ gem "lita-hipchat", "~> 1.3"
 # Add handlers to give Lita new functionality.
 # For example:
 gem 'lita-imgflip'
-#gem "lita-google-images"
-#gem "lita-flip"
+gem "lita-google-images"
+gem "lita-flip"
 #gem "lita-eightball"
 #gem "lita-excuses"
-#gem "lita-coin"
+gem "lita-coin"
 #gem 'lita-helen'
-#gem 'lita-pugbomb', github: 'killpack/lita-pugbomb'
+gem 'lita-pugbomb', github: 'henrrrik/lita-pugbomb'
 gem 'lita-likeaboss'
 gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
