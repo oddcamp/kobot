@@ -24,6 +24,7 @@ gem 'lita-pugbomb', github: 'henrrrik/lita-pugbomb'
 gem 'lita-likeaboss'
 gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
+gem "lita-doitlive", github: "henrrrik/lita-doitlive"
 gem 'lita-giphy', github: 'henrrrik/lita-giphy'
 
 # gem 'lita-helen', path: '/Users/henrik/Projects/lita-helen'

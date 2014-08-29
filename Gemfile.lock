@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/henrrrik/lita-doitlive.git
+  revision: fbfed6f13668a95d87d0b610402e8ca512bc5444
+  specs:
+    lita-doitlive (1.0.0)
+      lita (~> 3.0)
+
+GIT
   remote: git://github.com/henrrrik/lita-giphy.git
   revision: dda31fb2885206a3ae7e0959e3e2f5a77de10a57
   specs:
@@ -80,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   lita (~> 3.0)
   lita-coin
+  lita-doitlive!
   lita-flip
   lita-giphy!
   lita-google-images
