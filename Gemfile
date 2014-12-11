@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 source 'https://sr9bdZCARFKkWwxW2in4@gem.fury.io/kollegorna/'
 
-ruby '2.1.1'
+ruby '2.1.5'
 
-gem "lita", "~> 3.0"
+gem "lita", "~> 4.0"
 
 # Uncomment to use the HipChat adapter
-gem "lita-hipchat", "~> 1.3"
+gem "lita-slack"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
@@ -25,6 +25,6 @@ gem 'lita-likeaboss'
 gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
 gem "lita-doitlive", github: "henrrrik/lita-doitlive"
-gem 'lita-giphy', github: 'henrrrik/lita-giphy'
+gem 'lita-giphy', github: "henrrrik/lita-giphy"
 
 # gem 'lita-helen', path: '/Users/henrik/Projects/lita-helen'

@@ -15,9 +15,8 @@ Lita.configure do |config|
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
   #config.robot.adapter = :shell
-  config.robot.adapter = :hipchat
-  config.adapter.jid = ENV['HIPCHAT_JID']
-  config.adapter.password = ENV['HIPCHAT_PASSWORD']
+  config.robot.adapter = :slack
+  config.adapters.slack.token = ENV['SLACK_TOKEN']
   config.adapter.debug = false
   config.adapter.rooms = :all
 
@@ -28,7 +27,7 @@ Lita.configure do |config|
   ## Example: Set options for the Redis connection.
   # config.redis.host = "127.0.0.1"
   # config.redis.port = 1234
-  config.redis.url = ENV["REDISTOGO_URL"]
+  config.redis[:host] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
 
   ## Example: Set configuration for any loaded handlers. See the handler's
