@@ -33,11 +33,11 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
-#  config.handlers.helen.api_key = ENV['HELEN_API_KEY']
-#  config.handlers.helen.host = ENV['HELEN_HOST']
 
   config.handlers.imgflip.username = ENV['IMGFLIP_USERNAME']
   config.handlers.imgflip.password = ENV['IMGFLIP_PASSWORD']
 
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC" # Public beta key
+
+  config.handlers.forecast.api_key = ENV['FORECAST_API_KEY']
 end

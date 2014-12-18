@@ -16,15 +16,14 @@ gem "lita-slack"
 gem 'lita-imgflip'
 gem "lita-google-images"
 gem "lita-flip"
-#gem "lita-eightball"
-#gem "lita-excuses"
 gem "lita-coin"
-#gem 'lita-helen'
 gem 'lita-pugbomb', github: 'henrrrik/lita-pugbomb'
 gem 'lita-likeaboss'
 gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
 gem "lita-doitlive", github: "henrrrik/lita-doitlive"
 gem 'lita-giphy', github: "henrrrik/lita-giphy"
+gem "lita-shipit"
+gem "lita-time"
+gem "lita-forecast"
 
-# gem 'lita-helen', path: '/Users/henrik/Projects/lita-helen'
