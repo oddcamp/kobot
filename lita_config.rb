@@ -40,4 +40,6 @@ Lita.configure do |config|
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC" # Public beta key
 
   config.handlers.forecast.api_key = ENV['FORECAST_API_KEY']
+
+  config.handlers.time.apikey = ENV['TIME_API_KEY']
 end
