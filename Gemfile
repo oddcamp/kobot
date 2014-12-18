@@ -24,6 +24,6 @@ gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
 gem "lita-doitlive", github: "henrrrik/lita-doitlive"
 gem 'lita-giphy', github: "henrrrik/lita-giphy"
 gem "lita-shipit"
-gem "lita-time"
+gem "lita-time", github: "henrrrik/lita-time"
 gem "lita-forecast"
 

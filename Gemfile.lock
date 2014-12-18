@@ -33,6 +33,13 @@ GIT
     lita-pugbomb (1.0.1)
       lita (>= 2.0)
 
+GIT
+  remote: git://github.com/henrrrik/lita-time.git
+  revision: 9a5f91a3503b46dcdf6ec1a36377b8924254f7d0
+  specs:
+    lita-time (0.0.1)
+      lita (>= 3.3)
+
 GEM
   remote: https://rubygems.org/
   remote: https://sr9bdZCARFKkWwxW2in4@gem.fury.io/kollegorna/
@@ -91,8 +98,6 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.0.4)
       multi_json
-    lita-time (0.0.1)
-      lita (>= 3.3)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     puma (2.10.2)
@@ -125,4 +130,4 @@ DEPENDENCIES
   lita-pugbomb!
   lita-shipit
   lita-slack
-  lita-time
+  lita-time!
