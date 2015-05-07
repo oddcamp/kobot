@@ -1,7 +1,6 @@
 source "https://rubygems.org"
-source 'https://sr9bdZCARFKkWwxW2in4@gem.fury.io/kollegorna/'
 
-ruby '2.1.5'
+ruby '2.2.2'
 
 gem "lita", "~> 4.0"
 
