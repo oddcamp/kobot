@@ -25,4 +25,6 @@ gem 'lita-giphy', github: "henrrrik/lita-giphy"
 gem "lita-shipit"
 gem "lita-time", github: "henrrrik/lita-time"
 gem "lita-forecast"
+gem "lita-ascii-art"
+gem "lita-applause"
 
