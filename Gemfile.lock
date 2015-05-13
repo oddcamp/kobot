@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/dencarlsson/lita-polite.git
+  revision: 31090c61ac1fc980aa7ada25c68d43b23e1a869c
+  specs:
+    lita-polite (0.1.0)
+      lita (>= 4.3)
+
+GIT
   remote: git://github.com/henrrrik/lita-doitlive.git
   revision: b69e870c501769813bfbd1e599c90760b95bc424
   specs:
@@ -136,6 +143,7 @@ DEPENDENCIES
   lita-imgflip
   lita-likeaboss
   lita-nerd!
+  lita-polite!
   lita-pugbomb!
   lita-shipit
   lita-slack
