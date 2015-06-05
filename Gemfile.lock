@@ -27,6 +27,13 @@ GIT
       lita (~> 4.0)
 
 GIT
+  remote: git://github.com/henrrrik/lita-meatismurder.git
+  revision: d3d0564e2d3f8d5bdcb52711444973319e588b58
+  specs:
+    lita-meatismurder (1.0.0)
+      lita (~> 4.0)
+
+GIT
   remote: git://github.com/henrrrik/lita-nerd.git
   revision: 05b90930b663195a4d03c391cc3caeda961cc0c4
   specs:
@@ -142,9 +149,13 @@ DEPENDENCIES
   lita-holmstrom!
   lita-imgflip
   lita-likeaboss
+  lita-meatismurder!
   lita-nerd!
   lita-polite!
   lita-pugbomb!
   lita-shipit
   lita-slack
   lita-time!
+
+BUNDLED WITH
+   1.10.3
