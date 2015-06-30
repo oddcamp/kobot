@@ -54,6 +54,13 @@ GIT
     lita-time (0.0.1)
       lita (>= 3.3)
 
+GIT
+  remote: git://github.com/ivannovosad/lita-tomorrow.git
+  revision: aabfe327fd839deb0be263a05618b1de5b901cfb
+  specs:
+    lita-tomorrow (0.1.0)
+      lita (>= 4.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +163,7 @@ DEPENDENCIES
   lita-shipit
   lita-slack
   lita-time!
+  lita-tomorrow!
 
 BUNDLED WITH
    1.10.3
