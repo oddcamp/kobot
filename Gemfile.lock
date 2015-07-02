@@ -6,6 +6,13 @@ GIT
       lita (>= 4.3)
 
 GIT
+  remote: git://github.com/emmnunes/lita-company-whois.git
+  revision: 45574d812e19a347a35375d771f85c033995ab11
+  specs:
+    lita-company-whois (0.1.0)
+      lita (>= 4.3)
+
+GIT
   remote: git://github.com/henrrrik/lita-doitlive.git
   revision: b69e870c501769813bfbd1e599c90760b95bc424
   specs:
@@ -148,6 +155,7 @@ DEPENDENCIES
   lita-applause
   lita-ascii-art
   lita-coin
+  lita-company-whois!
   lita-doitlive!
   lita-flip
   lita-forecast
@@ -166,4 +174,4 @@ DEPENDENCIES
   lita-tomorrow!
 
 BUNDLED WITH
-   1.10.3
+   1.10.5
