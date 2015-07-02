@@ -36,7 +36,7 @@ GIT
 
 GIT
   remote: git://github.com/henrrrik/lita-meatismurder.git
-  revision: d3d0564e2d3f8d5bdcb52711444973319e588b58
+  revision: ab63529f5dee7ba82943d3ef714d3c196e25fb9f
   specs:
     lita-meatismurder (1.0.0)
       lita (~> 4.0)
