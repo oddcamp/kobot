@@ -40,6 +40,4 @@ Lita.configure do |config|
   config.handlers.forecast.api_key = ENV['FORECAST_API_KEY']
 
   config.handlers.time.apikey = ENV['TIME_API_KEY']
-
-  config.handlers.clearbit.apikey = ENV['CLEARBIT_API_KEY']
 end
