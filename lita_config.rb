@@ -17,12 +17,12 @@ Lita.configure do |config|
   #config.robot.adapter = :shell
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
-  config.adapter.debug = false
-  config.adapter.rooms = :all
+  config.adapters.debug = false
+  config.adapters.rooms = :all
 
   ## Example: Set options for the chosen adapter.
-  # config.adapter.username = "myname"
-  # config.adapter.password = "secret"
+  # config.adapters.username = "myname"
+  # config.adapters.password = "secret"
 
   ## Example: Set options for the Redis connection.
   # config.redis.host = "127.0.0.1"
