@@ -17,7 +17,6 @@ Lita.configure do |config|
   #config.robot.adapter = :shell
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
-  config.adapters.debug = false
   config.adapters.rooms = :all
 
   ## Example: Set options for the chosen adapter.
