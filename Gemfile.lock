@@ -6,6 +6,13 @@ GIT
       lita (>= 4.3)
 
 GIT
+  remote: git://github.com/emmnunes/lita-logo.git
+  revision: 0bfa2f5910e76715d2bc39f0e2a795d27eb16776
+  specs:
+    lita-logo (0.1.0)
+      lita (>= 4.4)
+
+GIT
   remote: git://github.com/henrrrik/lita-doitlive.git
   revision: b69e870c501769813bfbd1e599c90760b95bc424
   specs:
@@ -78,8 +85,8 @@ GEM
       faraday
       hashie
       multi_json
-    geocoder (1.2.6)
-    hashie (3.3.2)
+    geocoder (1.2.9)
+    hashie (3.4.2)
     http_router (0.11.1)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -104,7 +111,7 @@ GEM
       lita (>= 3.0.0)
     lita-coin (0.0.3)
       lita (>= 2.3)
-    lita-flip (0.0.2)
+    lita-flip (1.0.1)
       lita
     lita-forecast (0.1.7)
       compass_rose (~> 0.1.0)
@@ -112,21 +119,21 @@ GEM
       geocoder (~> 1.1, >= 1.1.9)
       hashie (~> 3.0)
       lita (>= 3.0.0)
-    lita-google-images (1.0.4)
-      lita (>= 2.0)
+    lita-google-images (2.0.0)
+      lita (>= 4.0)
     lita-imgflip (1.1.0)
       lita (~> 4.0)
     lita-likeaboss (1.1.0)
       lita (~> 4.0)
-    lita-shipit (0.0.1)
+    lita-shipit (0.1.0)
       lita (>= 4.0)
-    lita-slack (1.3.0)
+    lita-slack (1.5.0)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
-      lita (>= 4.0.4)
+      lita (>= 4.4.2)
       multi_json
-    multi_json (1.11.1)
+    multi_json (1.11.2)
     multipart-post (2.0.0)
     nestful (1.0.7)
     puma (2.11.3)
@@ -160,6 +167,7 @@ DEPENDENCIES
   lita-holmstrom!
   lita-imgflip
   lita-likeaboss
+  lita-logo!
   lita-meatismurder!
   lita-nerd!
   lita-polite!
