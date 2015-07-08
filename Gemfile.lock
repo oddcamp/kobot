@@ -7,10 +7,10 @@ GIT
 
 GIT
   remote: git://github.com/emmnunes/lita-logo.git
-  revision: 4964e4a9e9d9fac008bad3cf8299e2723cdb4999
+  revision: f17aff3a7fb1a01ffbdd40e7001aef8d5dc1ecbb
   specs:
     lita-logo (0.1.0)
-      lita (>= 4.4)
+      lita (>= 4.3)
 
 GIT
   remote: git://github.com/henrrrik/lita-doitlive.git
