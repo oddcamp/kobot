@@ -6,7 +6,7 @@ gem "lita", "~> 4.0"
 gem "clearbit", "~> 0.1.6"
 
 # Uncomment to use the HipChat adapter
-gem "lita-slack"
+# gem "lita-slack"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
