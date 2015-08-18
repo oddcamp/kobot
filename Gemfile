@@ -30,3 +30,5 @@ gem "lita-ascii-art"
 gem "lita-applause"
 gem "lita-polite", github: "dencarlsson/lita-polite"
 # gem "lita-tomorrow", github: "ivannovosad/lita-tomorrow"
+gem "lita-logo", github: "emmnunes/lita-logo"
+

@@ -5,7 +5,7 @@ Lita.configure do |config|
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
   # Messages at the selected level and above will be logged.
-  config.robot.log_level = :error
+  config.robot.log_level = :info
 
   # An array of user IDs that are considered administrators. These users
   # the ability to add and remove other users from authorization groups.
@@ -17,12 +17,10 @@ Lita.configure do |config|
   #config.robot.adapter = :shell
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
-  config.adapter.debug = false
-  config.adapter.rooms = :all
 
   ## Example: Set options for the chosen adapter.
-  # config.adapter.username = "myname"
-  # config.adapter.password = "secret"
+  # config.adapters.username = "myname"
+  # config.adapters.password = "secret"
 
   ## Example: Set options for the Redis connection.
   # config.redis.host = "127.0.0.1"
