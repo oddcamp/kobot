@@ -34,6 +34,13 @@ GIT
       lita (~> 4.0)
 
 GIT
+  remote: git://github.com/henrrrik/lita-imgflip.git
+  revision: 655d103901db9a856da541235bae7add96b9bdd2
+  specs:
+    lita-imgflip (1.1.0)
+      lita (~> 4.0)
+
+GIT
   remote: git://github.com/henrrrik/lita-meatismurder.git
   revision: ab63529f5dee7ba82943d3ef714d3c196e25fb9f
   specs:
@@ -112,8 +119,6 @@ GEM
       lita (>= 3.0.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
-    lita-imgflip (1.1.0)
-      lita (~> 4.0)
     lita-likeaboss (1.1.0)
       lita (~> 4.0)
     lita-shipit (0.1.0)
@@ -153,7 +158,7 @@ DEPENDENCIES
   lita-giphy!
   lita-google-images
   lita-holmstrom!
-  lita-imgflip
+  lita-imgflip!
   lita-likeaboss
   lita-logo!
   lita-meatismurder!

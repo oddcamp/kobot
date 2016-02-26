@@ -12,7 +12,7 @@ gem "lita-slack"
 
 # Add handlers to give Lita new functionality.
 # For example:
-gem 'lita-imgflip'
+gem 'lita-imgflip', github: 'henrrrik/lita-imgflip'
 gem "lita-google-images"
 gem "lita-flip"
 gem "lita-coin"
