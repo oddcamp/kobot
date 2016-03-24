@@ -18,7 +18,7 @@ gem "lita-flip"
 gem "lita-coin"
 gem 'lita-pugbomb', github: 'henrrrik/lita-pugbomb'
 gem 'lita-likeaboss'
-gem 'lita-meatismurder', github: 'henrrrik/lita-meatismurder'
+#gem 'lita-meatismurder', github: 'henrrrik/lita-meatismurder'
 gem 'lita-nerd', github: 'henrrrik/lita-nerd'
 gem 'lita-holmstrom', github: 'henrrrik/lita-holmstrom'
 gem "lita-doitlive", github: "henrrrik/lita-doitlive"
