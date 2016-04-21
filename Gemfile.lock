@@ -36,6 +36,7 @@ GIT
 GIT
   remote: git://github.com/henrrrik/lita-imgflip.git
   revision: 5747937063912ba599f05ab1b9492f9e58b1190e
+  branch: master
   specs:
     lita-imgflip (1.1.1)
       lita (~> 4.0)
