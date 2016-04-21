@@ -35,9 +35,9 @@ GIT
 
 GIT
   remote: git://github.com/henrrrik/lita-imgflip.git
-  revision: 8d016717dd8efa0a824a4ddfb133f24074ca79d1
+  revision: cad19aab90d695d5d7decc5d134833cce41d01d4
   specs:
-    lita-imgflip (1.1.0)
+    lita-imgflip (1.1.1)
       lita (~> 4.0)
 
 GIT
@@ -124,10 +124,10 @@ GEM
       multi_json
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    puma (3.0.2)
+    puma (3.4.0)
     rack (1.6.4)
     rb-readline (0.5.3)
-    redis (3.2.2)
+    redis (3.3.0)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     thor (0.19.1)
